@@ -14,7 +14,7 @@ use vars qw /$Canonicalizer @NameSpaces @XI_NameSpaces/;
 
 $Petal::INPUTS->{'XML'} = 'Petal::Parser::XP';
 
-our $VERSION = '1.00';
+our $VERSION = '1.02';
 
 
 sub new

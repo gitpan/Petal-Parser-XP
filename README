@@ -1,20 +1,7 @@
-Petal - TAL for Perl
-====================
+Petal::Parser::XP - XML::Parser backend for Petal
+=================================================
 
-Petal stands for "Perl Template Attribute Language". It is inspired from the
-Zope Page Templates TAL specification, and lets you write elegant, WYSIWYG
-friendly templates such as:
-
-<ul petal:condition="user/list">
-  <li petal:repeat="user user/list"
-      petal:content="user/login">
-    Dummy UserName
-  </li>
-</ul>
-
-Petal by default processes XML template files (i.e. SVG, XHTML, VoiceXML,
-whatever) using XML::Parser, however for convenience HTML is also supported
-(using HTML::TreeBuilder).
+This module is there purely for backwards compatibility reasons.
 
 
 INSTALLATION
@@ -33,30 +20,7 @@ DEPENDENCIES
 
 This module requires these other modules and libraries:
 
-  HTML::TreeBuilder
   XML::Parser
-
-
-CONTRIBUTORS
-
-Those people (sorted by chronological order of first contribution) have helped
-Petal under the form of suggestions, bug reports, patches or tests. Thanks to
-everybody!
-
-William McKee <william@knowmad.com>
-Lucas Saud <lucas.marinho@uol.com.br>
-Sean M. Burke <sburke@cpan.org>
-Chris Croome <chris@webarchitects.co.uk>
-Paul Arzul <patricka@mkdoc.com>
-Kurt Stephens <kstep@pepsdesign.com>
-Steve Purkis <spurkis@mkdoc.com>
-Holland, Mark <Mark.Holland@commerzbankib.com>
-Ronald Hayden <rhayden@apple.com>
-Peter Wilson <pwilson@apple.com>
-Fergal Daly <fergal@esatclear.ie>
-Grant McLean <grant@mclean.net.nz>
-
-(hopefully I didn't forget anybody...)
 
 
 MISCELLEANOUS
@@ -72,7 +36,5 @@ COPYRIGHT AND LICENCE
 
   Copyright (C) 2003 MKDoc Holdings Ltd.
 
-  Authors: Jean-Michel Hiver <jhiver@mkdoc.com>, 
-           Fergal Daly <fergal@esatclear.ie>,
-           and others.
+  Author: Jean-Michel Hiver <jhiver@mkdoc.com>.
 
