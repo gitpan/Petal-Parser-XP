@@ -1,0 +1,6 @@
+Revision history for Petal::Parser::XP.
+
+1.00 Wed Sep 24 12:32:23 BST 2003
+    - Extracted XML::Parser parser from Petal 1.06
+    - Moved it to Petal::Parser::XP
+    - Ported Petal's test suite
